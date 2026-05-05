@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.fundo {
+    background: linear-gradient(to right,rgb(0, 0, 0), rgba(0,0,0,.4)),
+    url(img/barbeiro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 90vh;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 50vh;
+}
+
+#text_um {
+    color: rgb(221, 163, 4);
+    font-size: 14px;
+    padding: 16px 0px;
+    letter-spacing: 2px;
+}
+
+#text_dois{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.0;
+
+    font-family: "Montserrat",sans-serif !important;
+}
+
+#text_tres {
+    color: rgb(188, 188, 188);
+    font-size: 16px;
+}
+
+#buttom_agendar button{
+    background-color: rgb(221, 163, 4);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 12px 0px 6px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "poppins",sans-serif;
+
+    transition: 0.3s;
+}
+
+#buttom_agendar button:hover {
+    background-color: white;
+    color: rgb(221, 163, 4);
+}
+
+span {
+    color: rgb(221, 163, 4);
+    letter-spacing: 4px;
+
+    text-shadow:
+    0 0 5px rgba(221, 163, 4, 0.6),
+    0 0 10px rgba(221, 163, 4, 0.4),
+    0 0 20px rgba(221, 163, 4, 0.2);
+}
+
+@media (max-width: 999px) {
+    span {
+        text-shadow: 0 0 5px rgba(221,163,4, 0.2),
+        0 0 10px rgba(221,163,4,0.3);
+    }
+
+    #text_um {
+        font-size: 12px;
+    }
+
+    #text_tres {
+        padding: 0 12px 0 0 ;
+    }
+
+    }
+

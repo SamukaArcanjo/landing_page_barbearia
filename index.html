@@ -3,31 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav_bar.css">
+    <link rel="stylesheet" href="hero.css">
     <title>Babearia Logo</title>
 </head>
 <body>
-    <header>
-        <nav id="nav_bar">
-            <div id="nav_logo">
-                <a href="/">Barbearia</a>
-            </div>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <div class="nav_list">
-                <ul>
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="/">Serviços</a></li>
-                    <li><a href="/">Sobre</a></li>
-                    <li><a href="/">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="fundo">
+        <header>
+            <div class="container">
+                <nav id="nav_bar">
+                    <div id="nav_logo">
+                        <a href="/">
+                            <p id="irmaos">Irmãos</p>
+                            <p id="barbearia">Barbearia</p>
+                        </a>
+                    </div>
+                    <div class="mobile-menu">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <div class="nav_list">
+                        <ul>
+                            <li><a href="/">Inicio</a></li>
+                            <li><a href="/">Serviços</a></li>
+                            <li><a href="/">Sobre</a></li>
+                            <li><a href="/">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <script src="script.js"></script>
+        <div class="hero-section">
+            <div class="container">
+                <div id="hero-text">
+                    <div id="text_um">
+                        <p>ESTILO • PRESENÇA • PERSONALIDADE</p>
+                    </div>
+                    <div id="text_dois">
+                        <p>SEU <span>VISUAL</span> FALA ANTES</p>
+                    </div>
+                    <div id="text_tres">
+                        <p>Cortes modernos, atendimento profissional e agendamento rápido direto pelo WhatsApp.</p>
+                    </div>
+
+                    <div id="buttom_agendar">
+                        <button>AGENDAR HORÁRIO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="second-section">
+            <div id="second_text">
+                <div id="second_text_um">
+                    <p>O QUE OFERECEMOS</p>
+                </div>
+
+                <div id="second_text_dois">
+                    <p>SERVIÇOS BARB.IRMÃOS</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="nav_bar.js"></script>
 </body>
 </html>
