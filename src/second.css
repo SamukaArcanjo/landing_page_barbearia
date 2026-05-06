@@ -1,3 +1,7 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 .second-section {
     background-color: black;
 
@@ -48,17 +52,102 @@
 }
 
 .card {
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(24, 24, 24);
     display: flex;
-    align-items: center;
-    flex-direction: column;   
+    flex-direction: column;
+    justify-content: space-between;
+   
+    border: 1px solid rgb(221, 163, 4);
+    border-radius: 4px;
+    padding: 24px;
+    width: 320px;
+    height: 40%;
+
+    transition: 0.3s;
 }
-#hero_card {
-    display: flex;
+.card:hover {
+    background-color: rgb(27, 27, 27);
+    transform: translateY(-4px);
+
+    border-color: rgb(221, 163, 4);
+    box-shadow: 0 0 10px rgba(221, 163, 4,0.1),
+    0 0 30px rgba(221, 163, 4,0.2);
 }
 
+#hero_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.icon_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    color: rgb(221, 163, 4);
+    padding: 0;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    transition: 0.3s;
+}
+.card:hover .icon_card {
+    background-color: rgb(221, 163, 4);
+    color: white;
+}
+
+.valor_time {
+    display: flex;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#valor {
+    color: rgb(221, 163, 4);
+    font-size: 18px;
+}
+#time {
+    display: flex;
+    color: rgb(188, 188, 188);
+    font-size: 10px;
+}
+#relogio {
+    color:rgb(188, 188, 188);
+    font-size: 10px;
+    padding: 0 8px 0 0;
+}
 
 .section_card {
     display: flex;
     flex-direction: column;
+    text-align: left;
+    margin-top: 12px;
+    gap: 8px;
+}
+#corte_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+#corte_text {
+    font-size: 14px;
+    color: rgb(188, 188, 188);
+    line-height: 1.6;
+}
+
+.section_card a {
+    font-size: 11px;
+    color: rgb(221, 163, 4);
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.section_card a:hover {
+    letter-spacing: 2px;
 }
