@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -16,14 +17,12 @@ body {
 }
 
 #irmaos {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
-    letter-spacing: 6px;
+    letter-spacing: 0px;
 }
 
 #barbearia {
-    line-height: -11px;
-    padding: 0 4px;
     font-size: 12px;
     color: rgb(221, 163, 4);
 }
@@ -46,9 +45,17 @@ a:hover {
 
 
 #nav_logo {
+    margin: 0px;
+    padding: 0px;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+#nav_logo a {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.9;
 }
 
 #nav_bar {

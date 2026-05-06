@@ -1,0 +1,64 @@
+.second-section {
+    background-color: black;
+
+}
+
+
+
+.second-section .container{
+    padding: 32px 0 32px 0 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+#second_text {
+    width: 80vh;
+}
+
+#second_text_um {
+    color: rgb(221, 163, 4);
+    font-size: 12px;
+}
+
+#second_text_dois {
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+#second_text_dois span {
+    color: rgb(221, 163, 4)
+}
+
+#second_text_tres {
+    color: rgb(188, 188, 188);
+    font-size: 14px;
+}
+
+
+.cards {
+    margin: 60px 0 60px 0 ;
+    display: flex;
+    flex: 1;
+}
+
+.card {
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+#hero_card {
+    display: flex;
+}
+
+
+.section_card {
+    display: flex;
+    flex-direction: column;
+}
