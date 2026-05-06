@@ -12,7 +12,8 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    min-height: 100vh;
+    min-height: 100svh;
+    padding-top: 10vh;
 }
 
 .hero-section {
@@ -20,7 +21,7 @@
     align-items: center;
     justify-content: flex-start;
 
-    height: 90vh;
+    height: 90svh;
     font-family: "Poppins", sans-serif;
 }
 
@@ -52,6 +53,7 @@
 #text_tres {
     color: rgb(188, 188, 188);
     font-size: 16px;
+    padding: 0 12px 0 0 ;
 }
 
 #buttom_agendar button{
@@ -86,6 +88,21 @@
 }
 
 @media (max-width: 999px) {
+    .container {
+        width: 80%;
+    }
+
+    .hero-section {
+        align-items: flex-start;
+        padding: 48px 0;
+    }
+
+    #hero-text {
+        width: 100%;
+
+        gap: 18px;
+    }
+
     span {
         text-shadow: 0 0 5px rgba(221,163,4, 0.2),
         0 0 10px rgba(221,163,4,0.3);
@@ -94,10 +111,13 @@
     #text_um {
         font-size: 12px;
     }
-
-    #text_tres {
-        padding: 0 12px 0 0 ;
+    #text_dois {
+        font-size: 60px;
     }
+    #text_tres {
+        font-size: 16px;
+    }
+
 
     }
 
