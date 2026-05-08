@@ -1,0 +1,74 @@
+.fourth-section {
+    background-color: black;
+}
+
+.fourth-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 120svh;
+}
+#fourth_text {
+    margin: 42px 0 ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+    line-height: 1.2;
+}
+#fourth_text #fourth_text_um{
+    color: rgb(221, 163, 4);
+    font-size: 14px;
+    padding: 16px 0 ;
+    letter-spacing: 2px;
+}
+#fourth_text h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+#fourth_text span {
+    color: rgb(221, 163, 4);
+}
+#fourth_text #fourth_text_dois {
+    color: rgb(188, 188, 188);
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.fourth_contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    min-width: 100%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card_contact {
+    width: 550px;
+    height: 100px;
+
+    background-color: rgb(24, 24, 24);
+    border: solid 1px rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 24px;
+    gap: 24px;
+}
