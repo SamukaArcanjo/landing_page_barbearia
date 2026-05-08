@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.third-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.713)), url(img/salao.png);
+    min-height: 100svh;
+}
+
+.third-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    color: white;
+    min-height: 100svh;
+}
+
+#third_history {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 32px 0 ;
+    width: 550px;
+    gap: 24px;
+}
+
+#third_text_um {
+    color: rgb(221, 163, 4);
+    font-size: 14px;
+    padding: 16px 0px;
+    letter-spacing: 2px;
+}
+#third_text_dois {
+    font-size: 48px;
+    font-weight: 600;
+}
+#third_text_dois span {
+    color: rgb(221, 163, 4);
+}
+
+#third_history p span {
+    color: rgb(221, 163, 4);
+    font-weight: 700;
+}
+
+.third_cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    width: 550px;
+    gap: 24px;
+}
+
+.third_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 200px;
+    height: 200px;
+    
+}
+
+.third_icon {
+    color: rgb(221, 163, 4);
+    font-size: 32px;
+}
+.num-font {
+    color: rgb(221, 163, 4);
+    font-family: "Orbitron";
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 2px;
+
+    padding-top: 18px;
+}
+
+.third_cards p {
+    color: rgb(188, 188, 188);
+    font-size: 14px;
+}
+
+@media (max-width: 999px) {
+    .third-section .container {
+        width: 100%;
+        max-width: 900px;
+    }
+    
+    #third_history {
+        padding: 20px;
+    }
+
+    #third_text_dois {
+        font-size: 30px;
+    }
+
+
+    .third_cards {
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .third_card {
+        width: 150px;
+    }
+
+
+
+}
