@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="second.css">
     <link rel="stylesheet" href="third.css">
     <link rel="stylesheet" href="fourth.css">
+    <link rel="stylesheet" href="footer.css">
 
     <title>Babearia Logo</title>
 </head>
@@ -30,17 +31,17 @@
                     </div>
                     <div class="nav_list">
                         <ul>
-                            <li><a href="/">Inicio</a></li>
-                            <li><a href="/">Serviços</a></li>
-                            <li><a href="/">Sobre</a></li>
-                            <li><a href="/">Contato</a></li>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#contato">Contato</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <div class="hero-section">
+        <div class="hero-section" id="inicio">
             <div class="container">
                 <div id="hero-text">
                     <div id="text_um">
@@ -61,7 +62,7 @@
         </div>
     </div>
 
-    <div class="second-section">
+    <div class="second-section" id="servicos">
         <div class="container">
 
             <div id="second_text">
@@ -189,7 +190,7 @@
     </div>
 
 
-    <div class="third-section">
+    <div class="third-section" id="sobre">
         <div class="container">
             <div id="third_history">
 
@@ -246,7 +247,7 @@
         </div>
     </div>
 
-    <div class="fourth-section">
+    <div class="fourth-section" id="contato">
         <div class="container">
             <div id="fourth_text">
                 <p id="fourth_text_um">ONDE ESTAMOS</p>
@@ -327,23 +328,23 @@
         <div class="container">
             <div class="footer_sobre">
                 <div id="footer_logo">
-                    <a href="/">
+                    <p>
                         <span id="irmaos">Dos Irmãos</span>
                         <span id="barbearia">Barbearia</span>
-                    </a>
+                    </p>
                 </div>
 
-                <p>Desde 2019 entregando um exelente trabalho</p>
-
-                <div id="footer_tel">
-                    <i class="fa-solid fa-phone"></i>
+                <div class="footer_tel">
+                    <i class="footer_card_icon fa-solid fa-phone"></i>
                     <p>telefone: (11) 99999-9999</p>
                 </div>
 
-                <div id="footer_contact">
-                    <i class="fa-regular fa-comment"></i>
+                <div class="footer_contact">
+                    <i class="footer_card_icon fa-regular fa-comment"></i>
                     <p>email: contactcontact@gmail.com</p>
                 </div>
+
+                <p>Desde 2019 entregando um exelente trabalho</p>
 
                 <div></div>
             </div>
@@ -352,14 +353,18 @@
                 <h1>SIGA-NOS</h1>
                 <div id="redes">
                     <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
 
                 </div>
             </div>
         </div>
     </footer>
 
+    <div id="direitos_autorais">
+        <p id="autorais" >© 2026 Projeto Barbearia. Todos os direitos reservados.</p>
 
+        <p>Produzido por <a href="">Samuel Arcanjo</a></p>
+    </div>
     <script src="nav_bar.js"></script>
 </body>
 </html>
