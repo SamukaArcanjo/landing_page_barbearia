@@ -74,6 +74,25 @@ const myObserver = new IntersectionObserver((entries) => {
 
 })
 
+
+
+// Aqui eu adiciono os links aos botoes saiba mais, e os agendar
+
+
 const elements = document.querySelectorAll(".hidden")
 
 elements.forEach((element) => myObserver.observe(element))
+
+
+function abrir_whatsapp(class_id) {
+
+    document
+        .getElementById(class_id)
+        .addEventListener("click", () => {
+            window.open("https://wa.me/5511976916580", "_blank")
+        })
+    
+}
+
+abrir_whatsapp("buttom_agendar")
+abrir_whatsapp("fourth_button_whats")
