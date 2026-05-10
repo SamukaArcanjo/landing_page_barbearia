@@ -137,6 +137,7 @@
 #horario_funcionamento {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 #horario_funcionamento .fourth_card_text_dois {
